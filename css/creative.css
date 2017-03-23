@@ -269,7 +269,9 @@ p {
 .section-heading {
     margin-top: 0;
 }
-
+.text-muted{
+    text-align: justify;
+}
 .service-box {
     margin: 50px auto 0;
     max-width: 400px;
@@ -374,9 +376,11 @@ p {
     width:auto;
 }
 /*final de equipo*/
+
 .service-box p {
     margin-bottom: 0;
 }
+/*clientes*/
 
 .portfolio-box {
     display: block;
@@ -460,6 +464,87 @@ p {
     -moz-transition: all .35s;
     transition: all .35s;
 }
+/*FOOTER*/
+.ul.quicklinks {
+        margin-bottom: 0;
+        line-height: 40px;
+        @include heading-font;
+        text-transform: none;
+    }
+}
+/*FINAL DE FOOTER*/
+/* INICIO CONTACTO*/
+.contacto-modal .modal-dialog {
+  margin: 0;
+  height: 100%;
+  width: auto;
+}
+.contacto-modal .modal-content {
+  border-radius: 0;
+  background-clip: border-box;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  min-height: 100%;
+  padding: 100px 0;
+  text-align: center;
+}
+.contacto-modal .modal-content h2 {
+  margin-bottom: 15px;
+  font-size: 3em;
+}
+.contacto-modal .modal-content p {
+  margin-bottom: 30px;
+}
+.contacto-modal .modal-content p.item-intro {
+  margin: 20px 0 30px;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.contacto-modal .modal-content img {
+}
+.contacto-modal .close-modal {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background-color: transparent;
+  top: 25px;
+  right: 25px;
+  cursor: pointer;
+}
+.contacto-modal .close-modal:hover {
+  opacity: 0.3;
+}
+.contacto-modal .close-modal .lr {
+  height: 55px;
+  width: 1px;
+  margin-left: 35px;
+  background-color: #222222;
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  /* IE 9 */
+  -webkit-transform: rotate(45deg);
+  /* Safari and Chrome */
+  z-index: 1051;
+}
+.contacto-modal .close-modal .lr .rl {
+  height: 55px;
+  width: 1px;
+  background-color: #222222;
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  /* IE 9 */
+  -webkit-transform: rotate(90deg);
+  /* Safari and Chrome */
+  z-index: 1052;
+}
+.contacto-modal .modal-backdrop {
+  opacity: 0;
+  display: none;
+}
+/*FINAL CONTACTO*/
 
 .btn-default:hover,
 .btn-default:focus,
