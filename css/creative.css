@@ -90,12 +90,15 @@ aside {
     -moz-transition: all .35s;
     transition: all .35s;
 }
-
+.navbar-right{
+  margin-right: 15px;
+}
 .navbar-default .navbar-header .navbar-brand {
     text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
     color: #f05f40;
+    margin-left: 15px;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
@@ -154,7 +157,8 @@ aside {
       width: 220px;
       padding-top: 25px;
       margin-left: 20px;
-    }
+}
+
 @media(min-width:768px) {
     .navbar-default {
         background-color: transparent;
@@ -502,83 +506,46 @@ p {
     transition: all .35s;
 }
 /*FOOTER*/
-.footer{
-  background-color:#686868;
+footer {
+  padding: 25px 0;
+  text-align: center;
+  background-color: #686868;
+}
+footer span.copyright {
+  line-height: 40px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  text-transform: none;
+  color:rgba(255,255,255,0.69);
+}
+footer .marca-footer {
+  margin-bottom: 0;
   height: 70px;
-}
-.fa-2x {
-    font-size: 2em;
-    color: white;
-}
-.fa .fa-2x {
-    color: white;
-    display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-.copyright{
-  color: white;
-}
-.marca{
-  height: 50px;
-  width: 50px;
-}
-.list-inline {
-    padding-left: 0; 
-    margin-left: -5px; 
-    list-style: none;
-}
-.ul.quicklinks {
-        margin-bottom: 0;
-        line-height: 40px;
-      @include heading-font;
-        text-transform: none;
-        background-color: white;
-    }
+  width: 150px;
+  text-align: center;
+  margin-left: 90px;
 }
 
-@media(min-width:768px){
-  .footer{
-  background-color:#686868;
-  height: 100%;
+ul.social-buttons {
+  margin-bottom: 0;
 }
-  .fa-2x {
-    font-size: 4em;
-    color: white;
-}
-.fa .fa-2x {
-    color: white;
-    display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-.copyright{
+ul.social-buttons li a {
+  display: block;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  font-size: 20px;
+  line-height: 40px;
   color: white;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
 }
-.marca{
-  height: 50px;
-  width: 50px;
-}
-.list-inline {
-    padding-left: 0; 
-    margin-left: -5px; 
-    list-style: none;
-}
-.ul.quicklinks {
-        margin-bottom: 0;
-        line-height: 40px;
-      @include heading-font;
-        text-transform: none;
-        background-color: white;
-    }
-}
-}
+
+
+@media(min-width:768px){
+  
 /*FINAL DE FOOTER*/
 
 
