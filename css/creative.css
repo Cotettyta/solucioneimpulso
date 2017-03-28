@@ -104,7 +104,7 @@ aside {
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border-color: #e7e7e7;
-    margin-top: 15px;
+    padding-top: 15px;
 }
 .navbar-brand{
     width: 200px;
@@ -411,7 +411,13 @@ p {
 .service-box p {
     margin-bottom: 0;
 }
-/*clientes*/
+
+/*CLIENTES*/
+
+.text-cliente{
+  color:#f05f40;
+  text-align: center;
+}
 
 .portfolio-box {
     display: block;
@@ -496,15 +502,90 @@ p {
     transition: all .35s;
 }
 /*FOOTER*/
+.footer{
+  background-color:#686868;
+  height: 70px;
+}
+.fa-2x {
+    font-size: 2em;
+    color: white;
+}
+.fa .fa-2x {
+    color: white;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.copyright{
+  color: white;
+}
+.marca{
+  height: 50px;
+  width: 50px;
+}
+.list-inline {
+    padding-left: 0; 
+    margin-left: -5px; 
+    list-style: none;
+}
 .ul.quicklinks {
         margin-bottom: 0;
         line-height: 40px;
-        @include heading-font;
+      @include heading-font;
         text-transform: none;
+        background-color: white;
     }
 }
+
+@media(min-width:768px){
+  .footer{
+  background-color:#686868;
+  height: 100%;
+}
+  .fa-2x {
+    font-size: 4em;
+    color: white;
+}
+.fa .fa-2x {
+    color: white;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.copyright{
+  color: white;
+}
+.marca{
+  height: 50px;
+  width: 50px;
+}
+.list-inline {
+    padding-left: 0; 
+    margin-left: -5px; 
+    list-style: none;
+}
+.ul.quicklinks {
+        margin-bottom: 0;
+        line-height: 40px;
+      @include heading-font;
+        text-transform: none;
+        background-color: white;
+    }
+}
+}
 /*FINAL DE FOOTER*/
+
+
+
+
 /* INICIO CONTACTO*/
+
 .contacto-modal .modal-dialog {
   margin: 0;
   height: 100%;
@@ -575,6 +656,7 @@ p {
   opacity: 0;
   display: none;
 }
+
 /*FINAL CONTACTO*/
 
 .btn-default:hover,
