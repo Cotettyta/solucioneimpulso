@@ -520,8 +520,8 @@ footer span.copyright {
 }
 footer .marca-footer {
   margin-bottom: 0;
-  height: 70px;
-  width: 150px;
+  height: 100px;
+  width: 160px;
   text-align: center;
   margin-left: 90px;
 }
@@ -545,7 +545,20 @@ ul.social-buttons li a {
 
 
 @media(min-width:768px){
-  
+  ul.telefono li {
+  display: block;
+  font-size: 15px;
+  color: #686868;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  }
+  iframe{
+    height: 50%;
+    width: 50%;
+  }
+}
 /*FINAL DE FOOTER*/
 
 ul.telefono li {
