@@ -548,17 +548,25 @@ ul.social-buttons li a {
   
 /*FINAL DE FOOTER*/
 
-
+ul.telefono li {
+  display: block;
+  font-size: 15px;
+  color: #686868;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
 
 
 /* INICIO CONTACTO*/
 
-.contacto-modal .modal-dialog {
+.contact-modal .modal-dialog {
   margin: 0;
   height: 100%;
   width: auto;
 }
-.contacto-modal .modal-content {
+.contact-modal .modal-content {
   border-radius: 0;
   background-clip: border-box;
   -webkit-box-shadow: none;
@@ -568,23 +576,23 @@ ul.social-buttons li a {
   padding: 100px 0;
   text-align: center;
 }
-.contacto-modal .modal-content h2 {
+.contact-modal .modal-content h2 {
   margin-bottom: 15px;
   font-size: 3em;
 }
-.contacto-modal .modal-content p {
+.contact-modal .modal-content p {
   margin-bottom: 30px;
 }
-.contacto-modal .modal-content p.item-intro {
+.contact-modal .modal-content p.item-intro {
   margin: 20px 0 30px;
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 16px;
 }
 
-.contacto-modal .modal-content img {
+.contact-modal .modal-content img {
 }
-.contacto-modal .close-modal {
+.contact-modal .close-modal {
   position: absolute;
   width: 75px;
   height: 75px;
@@ -593,7 +601,7 @@ ul.social-buttons li a {
   right: 25px;
   cursor: pointer;
 }
-.contacto-modal .close-modal:hover {
+.contact-modal .close-modal:hover {
   opacity: 0.3;
 }
 .contacto-modal .close-modal .lr {
