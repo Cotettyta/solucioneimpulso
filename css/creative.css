@@ -109,7 +109,7 @@ aside {
 .navbar-brand{
     width: 200px;
     margin-top: 10px;
-    margin-left: 30px;
+    padding-left: 30px;
 }
 
 .navbar-default .nav > li>a,
@@ -150,6 +150,11 @@ aside {
     border: 1px solid transparent;
     border-radius: 4px;
 }
+.navbar-default.affix .navbar-header .navbar-brand { /* aqui se arreglo el logo */
+      width: 220px;
+      padding-top: 25px;
+      margin-left: 20px;
+    }
 @media(min-width:768px) {
     .navbar-default {
         background-color: transparent;
@@ -159,7 +164,7 @@ aside {
     }
     .navbar-default.affix {
       background-color: rgba(157,157,157,0.97);
-      height: 100px;
+      height: 80px;
       width: 100%;
     }
 
