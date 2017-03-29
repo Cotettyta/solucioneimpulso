@@ -103,6 +103,7 @@ aside {
   font-weight: 700;
   color: #f05f40;
   margin-left: 15px;
+  margin-top: 20px;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
@@ -484,7 +485,6 @@ header .header-content .header-content-inner p {
   opacity: 0;
   display: none;
 }
-
 .caption{
     background-color: #205a84;
     
@@ -504,7 +504,8 @@ header .header-content .header-content-inner p {
     height:auto;
     width:auto;
 }
-/*final de equipo*/
+
+/* FINAL DE EQUIPO -- */
 
 .service-box p {
     margin-bottom: 0;
@@ -675,15 +676,16 @@ ul.telefono li {
 
 
 /* INICIO CONTACTO*/
-
-
-
-.contact-modal .modal-dialog {
-  margin: 0;
+.contacto{
   height: 100%;
+  width: 100%;
+}
+.contacto-modal .modal-dialog {
+  margin: 0;
+  height: auto;
   width: auto;
 }
-.contact-modal .modal-content {
+.contacto-modal .modal-content {
   border-radius: 0;
   background-clip: border-box;
   -webkit-box-shadow: none;
@@ -693,23 +695,23 @@ ul.telefono li {
   padding: 100px 0;
   text-align: center;
 }
-.contact-modal .modal-content h2 {
+.contacto-modal .modal-content h2 {
   margin-bottom: 15px;
   font-size: 3em;
 }
-.contact-modal .modal-content p {
+.contacto-modal .modal-content p {
   margin-bottom: 30px;
 }
-.contact-modal .modal-content p.item-intro {
+.contacto-modal .modal-content p.item-intro {
   margin: 20px 0 30px;
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 16px;
 }
 
-.contact-modal .modal-content img {
+.contacto-modal .modal-content img {
 }
-.contact-modal .close-modal {
+.contacto-modal .close-modal {
   position: absolute;
   width: 75px;
   height: 75px;
@@ -718,12 +720,13 @@ ul.telefono li {
   right: 25px;
   cursor: pointer;
 }
-.contact-modal .close-modal:hover {
+.contacto-modal .close-modal:hover {
   opacity: 0.3;
 }
 .contacto-modal .close-modal .lr {
   height: 55px;
   width: 1px;
+  margin-top: 10px;
   margin-left: 35px;
   background-color: #222222;
   transform: rotate(45deg);
@@ -748,12 +751,31 @@ ul.telefono li {
   opacity: 0;
   display: none;
 }
+.caption{
+    background-color: #205a84;
+    
+}
+.thumbnail{
+    background-color: #205a84;
+}
+.nombre-equipo{
+    color: white;
+}
+.info {
+    text-align: left;
+    color: white;
+}
 
-
+.img-responsive{
+    height:auto;
+    width:auto;
+}
 
 
 /*FINAL CONTACTO*/
 
+
+/* ACA ESTAN LOS CODIGOS DE BOTONES*/
 
 
 .btn-default:hover,
