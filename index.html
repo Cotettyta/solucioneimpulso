@@ -328,7 +328,8 @@
 
 <!-- termino clientes-->
 
-<!-- inicio Noticias-->
+<!-- INICIO DE NOTICIAS-->
+
     <aside class="bg-dark">
         <div class="container text-center">
             <div class="call-to-action">
@@ -345,17 +346,18 @@
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">Nos interesa tú Negocio!</h2>
 
-                    <a href="#contact" class=" btn btn-primary btn-xl equipo wow tada"  data-toggle="modal" style="visibility: visible; animation-name:tada;">Contacto</a>
+                    <a href="#contacto" class=" btn btn-primary btn-xl equipo wow tada"  data-toggle="modal" style="visibility: visible; animation-name:tada;">Contacto</a>
                     <hr class="primary">
                     <p>¿Listo para comenzar un nuevo camino con nosotros? ¡Eso es genial! Llámenos o envíenos un correo electrónico y nos pondremos en contacto con usted lo antes posible!</p>
                 </div>
             </div>
+            <br>
             <div class="row">
                 <div class="col-lg-4  text-center">
                     <i class="fa fa-phone fa-3x wow bounceIn"></i>
                     <ul class="telefono">
-                        <li>+56995757764</li>
-                        <li>+56982769500</li>
+                        <li>+569 95757764</li>
+                        <li>+569 82769500</li>
                     </ul>
                 </div>
                 <div class="col-lg-4  text-center">
@@ -462,9 +464,15 @@
     </div>
     <!-- CONTACTO-->
 
-    <div class="contact-modal modal fade" id="contact" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="contacto-modal modal fade" id="contacto" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
                 
                 <div class="container">
                     <div class="row">
@@ -479,12 +487,22 @@
                 <div class="container">
                     <!-- Project One -->
                     <div class="row">
-                        <div class="col-sm-6 sin-padding">
-                            
-                        </div>
-                    
-                        <div class="col-sm-6">
-                            
+                        <div class="col-lg-4 col-lg-offset-2">
+                            <form class="formulario-contacto text-center">
+                                <div class="form-group">
+                                  <input type="text" class="form-control white" id="name" placeholder="Nombre*" required>
+                                </div>
+                                <div class="form-group">
+                                  <input type="email" class="form-control white" id="email" placeholder="Email*" required>
+                                </div>
+                                <div class="form-group">
+                                  <input type="text" class="form-control white" id="phone" placeholder="Empresa*" required>
+                                </div>
+                                <div class="form-group">
+                                  <textarea class="form-control white" rows="9" placeholder="Mensaje*" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-xl margin-top margin-bottom">ENVIAR</button>
+                            </form>
                         </div>
                     </div>
                     <!-- /.row -->
