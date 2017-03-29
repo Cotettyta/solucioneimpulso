@@ -182,19 +182,19 @@ aside {
       margin-top: 25px;
       margin-left: 20px;
     }
-    .navbar-default .navbar-header .navbar-brand {
-        color: rgba(255,255,255,.7);
+    .navbar-default .navbar-header .navbar-brand { /* aca va la marca*/
+      color: rgba(255,255,255,.7);
     }
 
     .navbar-default .navbar-header .navbar-brand:hover,
     .navbar-default .navbar-header .navbar-brand:focus {
-	color: #fff;
-	font-size: 16px;
+  	  color: #fff;
+  	  font-size: 16px;
     }
 
     .navbar-default .nav > li>a,
     .navbar-default .nav>li>a:focus {
-        color: rgba(255,255,255,.7);
+      color: rgba(255,255,255,.7);
     }
 
     .navbar-default .nav > li>a:hover,
@@ -258,8 +258,11 @@ aside {
       margin-top: 25px;
       margin-left: 20px;
     }
+    
+    
     .navbar-default .navbar-header .navbar-brand {
-        color: rgba(255,255,255,.7);
+        color: rgba(255,255,255,.7);                /*revisar aca*/
+
     }
 
     .navbar-default .navbar-header .navbar-brand:hover,
@@ -306,7 +309,7 @@ aside {
     .navbar-default.affix .navbar-header .navbar-brand { /* aqui se arreglo el logo */
       width: 200px;
       margin-top: 15px;
-      margin-left: 20px;
+      margin-left: 0;
     }
 }
 
@@ -622,10 +625,8 @@ footer span.copyright {
 }
 footer .marca-footer {
   margin-bottom: 0;
-  height: 100px;
   width: 160px;
   text-align: center;
-  margin-left: 90px;
 }
 
 ul.social-buttons {
