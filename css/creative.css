@@ -420,7 +420,7 @@ header .header-content .header-content-inner p {
 /*inicio de equipo*/
 .equipo-modal .modal-dialog {
   margin: 0;
-  height: 100%;
+  height: auto;
   width: auto;
 }
 .equipo-modal .modal-content {
@@ -677,14 +677,12 @@ ul.telefono li {
 
 
 /* INICIO CONTACTO*/
-.contacto{
-  height: 100%;
-  width: 100%;
-}
+
 .contacto-modal .modal-dialog {
   margin: 0;
   height: auto;
-  width: auto;
+  width:auto;
+  position: center;
 }
 .contacto-modal .modal-content {
   border-radius: 0;
