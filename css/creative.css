@@ -627,7 +627,7 @@ footer .marca-footer {
   margin-bottom: 0;
   width: 160px;
   text-align: center;
-  margin-left: 150px;
+  margin: auto;
 }
 
 ul.social-buttons {
