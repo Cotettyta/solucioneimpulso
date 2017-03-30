@@ -417,7 +417,7 @@ header .header-content .header-content-inner p {
     }
 }
 
-/*inicio de equipo*/
+/*INICIO EQUIPO*/
 .equipo-modal .modal-dialog {
   margin: 0;
   height: auto;
@@ -627,6 +627,7 @@ footer .marca-footer {
   margin-bottom: 0;
   width: 160px;
   text-align: center;
+  margin-left: 150px;
 }
 
 ul.social-buttons {
@@ -645,7 +646,15 @@ ul.social-buttons li a {
   -moz-transition: all 0.3s;
   transition: all 0.3s;
 }
+@media(min-width: 768px){
+  footer .marca-footer {
+  margin-bottom: 0;
+  width: 160px;
+  text-align: center;
+  margin:auto;
 
+}
+}
 
 @media(min-width:768px){
   ul.telefono li {
@@ -656,10 +665,6 @@ ul.social-buttons li a {
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
-  }
-  .maps{
-    height: 60px;
-    width: 60px;
   }
 }
 
